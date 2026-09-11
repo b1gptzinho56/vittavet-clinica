@@ -9,14 +9,14 @@ export const contact = {
 };
 
 export const services = [
-  { icon: 'Stethoscope', title: 'Consultas', text: 'Avaliação clínica cuidadosa, histórico completo e orientação clara para cada fase da vida.' },
-  { icon: 'Syringe', title: 'Vacinação', text: 'Protocolos individualizados, carteira atualizada e acompanhamento das próximas doses.' },
-  { icon: 'TestTube2', title: 'Exames laboratoriais', text: 'Coletas com manejo gentil e suporte diagnóstico para decisões veterinárias mais seguras.' },
-  { icon: 'HeartPulse', title: 'Cirurgia', text: 'Procedimentos eletivos em ambiente preparado, com avaliação pré-operatória e monitorização.' },
-  { icon: 'Sparkles', title: 'Odontologia', text: 'Avaliação da saúde oral, prevenção e procedimentos indicados por médico-veterinário.' },
-  { icon: 'ShieldCheck', title: 'Preventivo', text: 'Check-ups periódicos para acompanhar peso, rotina, vacinação e sinais precoces de alterações.' },
-  { icon: 'Dog', title: 'Cães e gatos', text: 'Consultas adaptadas ao comportamento e às necessidades específicas de cada espécie.' },
-  { icon: 'Scissors', title: 'Banho & cuidados', text: 'Higiene e bem-estar em horários organizados, com atenção ao conforto do animal.' }
+  { icon: 'Stethoscope', title: 'Consultas', text: 'Avaliação clínica cuidadosa, histórico completo e orientação clara para cada fase da vida.', image: '/images/services/consultas.webp', alt: 'Veterinária realizando uma consulta cuidadosa em um cão' },
+  { icon: 'Syringe', title: 'Vacinação', text: 'Protocolos individualizados, carteira atualizada e acompanhamento das próximas doses.', image: '/images/services/vacinacao.webp', alt: 'Veterinária realizando vacinação com cuidado em um cão' },
+  { icon: 'TestTube2', title: 'Exames laboratoriais', text: 'Coletas com manejo gentil e suporte diagnóstico para decisões veterinárias mais seguras.', image: '/images/services/exames-laboratoriais.webp', alt: 'Profissional veterinária analisando amostras em laboratório' },
+  { icon: 'HeartPulse', title: 'Cirurgia', text: 'Procedimentos eletivos em ambiente preparado, com avaliação pré-operatória e monitorização.', image: '/images/services/cirurgia.webp', alt: 'Ambiente cirúrgico veterinário moderno e preparado' },
+  { icon: 'Sparkles', title: 'Odontologia', text: 'Avaliação da saúde oral, prevenção e procedimentos indicados por médico-veterinário.', image: '/images/services/odontologia.webp', alt: 'Veterinária realizando avaliação odontológica em um cão' },
+  { icon: 'ShieldCheck', title: 'Preventivo', text: 'Check-ups periódicos para acompanhar peso, rotina, vacinação e sinais precoces de alterações.', image: '/images/services/preventivo.webp', alt: 'Check-up veterinário preventivo realizado com cuidado' },
+  { icon: 'Dog', title: 'Cães e gatos', text: 'Consultas adaptadas ao comportamento e às necessidades específicas de cada espécie.', image: '/images/services/caes-gatos.webp', alt: 'Cão e gato recebendo atendimento veterinário acolhedor' },
+  { icon: 'Scissors', title: 'Banho & cuidados', text: 'Higiene e bem-estar em horários organizados, com atenção ao conforto do animal.', image: '/images/services/banho-cuidados.webp', alt: 'Cão recebendo banho e cuidados de higiene com carinho' }
 ];
 
 export const team = [

@@ -93,7 +93,7 @@ function TrustStrip() {
 function Services() {
   return <section className="section" id="servicos"><div className="container">
     <div className="section-topline"><SectionHeader eyebrow="Serviços" title="Cuidado completo, sem complicar." text="Uma apresentação clara dos principais serviços que uma clínica veterinária moderna pode oferecer — sempre com avaliação profissional quando necessária."/><button className="text-link" onClick={() => scrollTo('agendamento')}>Agendar atendimento <ArrowRight size={16}/></button></div>
-    <div className="services-grid">{services.map((s, i) => { const Icon = iconMap[s.icon]; return <Reveal key={s.title} delay={i*45}><article className="service-card"><div className="service-icon"><Icon size={24}/></div><h3>{s.title}</h3><p>{s.text}</p><button onClick={() => scrollTo('agendamento')}>Saiba mais <ArrowRight size={15}/></button></article></Reveal>; })}</div>
+    <div className="services-grid">{services.map((s, i) => { const Icon = iconMap[s.icon]; return <Reveal key={s.title} delay={i*45}><article className="service-card"><img className="service-image" src={s.image} alt={s.alt} loading="lazy" decoding="async"/><div className="service-card-content"><div className="service-icon"><Icon size={24}/></div><h3>{s.title}</h3><p>{s.text}</p><button onClick={() => scrollTo('agendamento')}>Saiba mais <ArrowRight size={15}/></button></div></article></Reveal>; })}</div>
   </div></section>;
 }
 
