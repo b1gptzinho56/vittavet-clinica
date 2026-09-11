@@ -1,11 +1,11 @@
 export const contact = {
-  phoneDisplay: '(11) 4062-1188',
-  phone: '551140621188',
-  whatsappDisplay: '(11) 98842-1313',
-  whatsapp: '5511988421313',
-  address: 'Alameda das Acácias, 214 — Vila Serena, São Paulo — SP',
+  phoneDisplay: '(00) 0000-0000',
+  phone: '0000000000',
+  whatsappDisplay: '(00) 00000-0000',
+  whatsapp: '5500000000000',
+  address: 'Endereço fictício — São Paulo — SP',
   hours: 'Seg–Sex, 8h às 20h · Sáb, 8h às 16h',
-  mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Alameda+das+Acacias+214+Sao+Paulo+SP'
+  mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Sao+Paulo+SP'
 };
 
 export const services = [
