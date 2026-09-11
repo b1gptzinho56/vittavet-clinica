@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import {
   ArrowRight, CalendarDays, CheckCircle2, ChevronDown, Clock3, Dog, HeartPulse, MapPin,
   MessageCircle, Phone, Scissors, ShieldCheck, Sparkles, Star, Stethoscope, Syringe,
-  TestTube2, Wifi, CarFront, Coffee, Instagram, X, ZoomIn
+  TestTube2, Wifi, CarFront, Coffee, X, ZoomIn
 } from 'lucide-react';
 import Header from './components/Header';
 import Booking from './components/Booking';
@@ -146,5 +146,5 @@ function FinalCta() {
 }
 
 function Footer() {
-  return <footer className="footer"><div className="container footer-grid"><div className="footer-brand"><div className="brand brand--footer"><span className="brand-mark">V</span><span className="brand-name">Vitta<span>Vet</span></span></div><p>Clínica veterinária fictícia criada como projeto demonstrativo de portfólio. Nenhum contato, profissional ou atendimento desta página é real.</p><div className="socials"><a href="#inicio" aria-label="Instagram demonstrativo"><Instagram/></a><a href={`https://wa.me/${contact.whatsapp}`} target="_blank" rel="noreferrer" aria-label="WhatsApp demonstrativo"><MessageCircle/></a></div></div><div><h3>Navegação</h3><a href="#servicos">Serviços</a><a href="#equipe">Equipe</a><a href="#estrutura">Estrutura</a><a href="#faq">FAQ</a></div><div><h3>Contato</h3><span>{contact.phoneDisplay}</span><span>{contact.whatsappDisplay}</span><span>{contact.address}</span></div><div><h3>Horários</h3><span>Seg–Sex · 8h–20h</span><span>Sábado · 8h–16h</span><span>Domingo · fechado</span></div></div><div className="container footer-bottom"><span>© 2026 VittaVet — projeto fictício.</span><span>Design responsivo · React + Vite</span></div></footer>;
+  return <footer className="footer"><div className="container footer-grid"><div className="footer-brand"><div className="brand brand--footer"><span className="brand-mark">V</span><span className="brand-name">Vitta<span>Vet</span></span></div><p>Clínica veterinária fictícia criada como projeto demonstrativo de portfólio. Nenhum contato, profissional ou atendimento desta página é real.</p><div className="socials"><a href="#inicio" aria-label="Instagram demonstrativo"><Sparkles/></a><a href={`https://wa.me/${contact.whatsapp}`} target="_blank" rel="noreferrer" aria-label="WhatsApp demonstrativo"><MessageCircle/></a></div></div><div><h3>Navegação</h3><a href="#servicos">Serviços</a><a href="#equipe">Equipe</a><a href="#estrutura">Estrutura</a><a href="#faq">FAQ</a></div><div><h3>Contato</h3><span>{contact.phoneDisplay}</span><span>{contact.whatsappDisplay}</span><span>{contact.address}</span></div><div><h3>Horários</h3><span>Seg–Sex · 8h–20h</span><span>Sábado · 8h–16h</span><span>Domingo · fechado</span></div></div><div className="container footer-bottom"><span>© 2026 VittaVet — projeto fictício.</span><span>Design responsivo · React + Vite</span></div></footer>;
 }
