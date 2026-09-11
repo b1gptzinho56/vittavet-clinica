@@ -17,7 +17,7 @@ export default function App() {
       '@context': 'https://schema.org', '@type': 'VeterinaryCare', name: 'VittaVet Clínica Veterinária',
       description: 'Clínica veterinária fictícia criada como projeto demonstrativo de portfólio.',
       telephone: contact.phoneDisplay,
-      address: { '@type': 'PostalAddress', streetAddress: 'Alameda das Acácias, 214', addressLocality: 'São Paulo', addressRegion: 'SP', addressCountry: 'BR' },
+      address: { '@type': 'PostalAddress', streetAddress: 'Endereço fictício para demonstração', addressLocality: 'São Paulo', addressRegion: 'SP', addressCountry: 'BR' },
       openingHours: ['Mo-Fr 08:00-20:00', 'Sa 08:00-16:00'], priceRange: '$$'
     };
     const node = document.createElement('script');
@@ -138,7 +138,7 @@ function Faq() {
 }
 
 function Location() {
-  return <section className="section location-section" id="contato"><div className="container location-card"><div className="location-copy"><SectionHeader eyebrow="Onde estamos" title="Fácil de chegar. Fácil de falar com a gente." text="Endereço e contatos abaixo são fictícios e existem apenas para compor este case de portfólio."/><div className="contact-list"><div><MapPin/><span><small>Endereço</small><strong>{contact.address}</strong></span></div><div><Phone/><span><small>Telefone</small><strong>{contact.phoneDisplay}</strong></span></div><div><MessageCircle/><span><small>WhatsApp</small><strong>{contact.whatsappDisplay}</strong></span></div><div><Clock3/><span><small>Horário</small><strong>{contact.hours}</strong></span></div></div><a className="btn btn-primary" href={contact.mapsUrl} target="_blank" rel="noreferrer"><MapPin size={18}/> Abrir no Google Maps</a></div><div className="map-wrap"><iframe title="Mapa demonstrativo da localização da VittaVet" loading="lazy" referrerPolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Alameda%20das%20Acacias%20214%20Sao%20Paulo%20SP&output=embed"/></div></div></section>;
+  return <section className="section location-section" id="contato"><div className="container location-card"><div className="location-copy"><SectionHeader eyebrow="Onde estamos" title="Fácil de chegar. Fácil de falar com a gente." text="Endereço e contatos abaixo são fictícios e existem apenas para compor este case de portfólio."/><div className="contact-list"><div><MapPin/><span><small>Endereço</small><strong>{contact.address}</strong></span></div><div><Phone/><span><small>Telefone</small><strong>{contact.phoneDisplay}</strong></span></div><div><MessageCircle/><span><small>WhatsApp</small><strong>{contact.whatsappDisplay}</strong></span></div><div><Clock3/><span><small>Horário</small><strong>{contact.hours}</strong></span></div></div><a className="btn btn-primary" href={contact.mapsUrl} target="_blank" rel="noreferrer"><MapPin size={18}/> Ver mapa demonstrativo</a><small className="fiction-note">Localização ilustrativa: não existe uma unidade VittaVet neste endereço.</small></div><div className="map-wrap"><iframe title="Mapa demonstrativo da localização da VittaVet" loading="lazy" referrerPolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Sao%20Paulo%20SP&output=embed"/></div></div></section>;
 }
 
 function FinalCta() {
