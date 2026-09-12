@@ -430,3 +430,10 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
   .service-card-content { padding: 22px 24px 24px; }
   .service-card { min-height: auto; }
 }
+
+
+/* Hide compression artifacts near the lower edge of two generated service photos. */
+.services-grid > *:nth-child(5) .service-image,
+.services-grid > *:nth-child(8) .service-image {
+  object-position: center 12%;
+}
