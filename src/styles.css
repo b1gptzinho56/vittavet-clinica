@@ -430,34 +430,3 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
   .service-card-content { padding: 22px 24px 24px; }
   .service-card { min-height: auto; }
 }
-
-/* Final artifact-safe crop for damaged source pixels */
-/* The source files for Exames and Odontologia contain baked-in artifacts near the lower edge.
-   Keep only the clean upper region while preserving the card's original visual height. */
-.services-grid > *:nth-child(3) .service-image {
-  height: 210px;
-  object-fit: cover;
-  object-position: center top;
-  clip-path: inset(0 0 56px 0);
-  margin-bottom: -56px;
-}
-.services-grid > *:nth-child(5) .service-image {
-  height: 200px;
-  object-fit: cover;
-  object-position: center top;
-  clip-path: inset(0 0 46px 0);
-  margin-bottom: -46px;
-}
-@media (max-width: 560px) {
-  .services-grid > *:nth-child(3) .service-image {
-    height: 260px;
-    clip-path: inset(0 0 72px 0);
-    margin-bottom: -72px;
-  }
-  .services-grid > *:nth-child(5) .service-image {
-    height: 250px;
-    clip-path: inset(0 0 62px 0);
-    margin-bottom: -62px;
-  }
-}
-
