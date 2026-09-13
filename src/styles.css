@@ -432,8 +432,3 @@ button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visib
 }
 
 
-/* Hide compression artifacts near the lower edge of two generated service photos. */
-.services-grid > *:nth-child(5) .service-image,
-.services-grid > *:nth-child(8) .service-image {
-  object-position: center 12%;
-}
